@@ -8,6 +8,8 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     print("someone started")
     await update.message.reply_text("سلام به ربات Atlantis Vpn خوش اومدی! :red_heart:")
 
+print("ربات داره شروع میشه...")
+
 TOKEN = os.getenv("8334306969:AAFJRgjgiRIp5TKdy72mcGcCcidnQMaDCA0")
 
 app = Application.builder().token(TOKEN).build()
